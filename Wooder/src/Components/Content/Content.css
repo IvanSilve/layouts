@@ -1,0 +1,116 @@
+.content {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 85px 0 55px 90px;
+    align-items: flex-start;
+}
+.content__title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+}
+.content__title:before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 23px;
+    left: -175px;
+}
+.content__description {
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 200%;
+    margin: 0;
+}
+.content__description:before {
+    content: '';
+    width: 45px;
+    height: 4px;
+    background-color: #bea67c;
+    position: absolute;
+    top: 12px;
+    left: -70px;
+}
+
+@media(max-device-width: 1099px) {
+    .content {
+        margin: 45px 0 55px 90px;
+        padding: 0 15px 0 0;
+    }
+}
+@media(max-device-width: 899px) {
+    .content__title:before {
+        width: 75px;
+        left: -100px;
+    }
+    .content__description:before {
+        width: 23px;
+        left: -48px;
+    }
+}
+@media(max-device-width: 767px) {
+    .content {
+        margin: 25px auto 55px auto;
+    }
+}
+/*RIGHT!*/
+.content-right {
+    text-align: right;
+    align-items: flex-end;
+}
+.content__title-right {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+}
+.content__title-right:before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 23px;
+    right: -175px;
+}
+.content__description-right {
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 200%;
+    margin: 0;
+}
+.content__description-right:before {
+    content: '';
+    width: 45px;
+    height: 4px;
+    background-color: #bea67c;
+    position: absolute;
+    top: 12px;
+    right: -70px;
+}
+@media(max-width: 967px) {
+    .content {
+        margin: 85px 0 55px 130px;
+    }
+    .content-right {
+        margin: 85px 130px 55px 0;
+    }
+}
+@media(max-width: 899px) {
+    .content__title-right:before {
+        width: 75px;
+        right: -100px;
+    }
+    .content__description-right:before {
+        width: 23px;
+        right: -48px;
+    }
+}

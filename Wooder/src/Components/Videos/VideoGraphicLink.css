@@ -1,0 +1,62 @@
+.videos__graphicLinksWrapper {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.videoGraphicLink {
+    margin: 50px auto;
+    position: relative;
+    padding: 0 20px;
+}
+.videoGraphicLink__firstImage, .videoGraphicLink__secondImage, .videoGraphicLink__thirdImage {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 14px #FFFFFF, 0 0 0 15px #e6e6e6;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.videoGraphicLink__circle {
+}
+.videoGraphicLink__firstImage {
+    background-image: url("firstVideo.jpg");
+}
+.videoGraphicLink__secondImage {
+    background-image: url("secondVideo.jpg");
+}
+.videoGraphicLink__thirdImage {
+    background-image: url("thirdVideo.jpg");
+}
+.videoGraphicLink__circle a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    background-image: url("playIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.videoGraphicLink__description {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+}
+.videoGraphicLink__description:after {
+    content: '';
+    position: absolute;
+    background-color: #bda57c;
+    width: 25px;
+    height: 1px;
+    top: -20px;
+    left: calc(50% - 12px);
+}
