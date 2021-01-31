@@ -1,0 +1,72 @@
+/*@activeColor: #bda57c
+ @mainColor: #a5a5a5
+ */
+.header {
+    max-width: 100%;
+    margin: 30px;
+    height: 26px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    color: #a5a5a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu {
+    font-size: 1.5rem;
+    width: 88px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menuBurger {
+    position: relative;
+    width: 33px;
+    height: 2px;
+    margin-top: -4px;
+}
+.menuBurger:after {
+    content: 'Menu';
+    margin: 0 0 0 40px;
+    position: absolute;
+    top: 0;
+}
+.menuBurger span:before, .menuBurger span, .menuBurger span:after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background-color: #bda57c;
+    position: absolute;
+    left: 0;
+}
+.menuBurger span {
+    top: 0;
+}
+.menuBurger span:before {
+    top: 10px;
+}
+.header__menu span:after {
+    top: 20px;
+}
+
+.header__title {
+    font-size: 3.6rem;
+    color: #ffffff;
+    margin: 0 0 0 25px;
+}
+.header__nav {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0 120px 0 -200px;
+}
+@media (max-width: 1199px) {
+    .header__nav {
+        margin: 0 30px 0 -50px;
+    }
+}
+.header__nav a {
+    text-decoration: none;
+    color: #a5a5a5;
+    font-size: 1.5rem;
+    margin-left: 48px;
+}

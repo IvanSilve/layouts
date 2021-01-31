@@ -1,0 +1,17 @@
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.4rem;
+    position: relative;
+    color: white;
+}
+.logo:before {
+    content: '';
+    width: 54px;
+    height: 3px;
+    background-color: #bea67c;
+    position: absolute;
+    left: 34px;
+    top: calc(50% - 2px);
+}

@@ -1,0 +1,33 @@
+.preSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.preSection__LineWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.preSection__blackLine {
+    width: 151px;
+    height: 1px;
+    background-color: black;
+    margin-top: 132px;
+}
+.preSection__goldLine {
+    width: 44px;
+    height: 4px;
+    background-color: #bda57c;
+    margin-top: 54px;
+}
+.preSection__goldLine-right {
+    align-self: flex-end;
+}
+.preSection__number {
+    font-size: 3.6rem;
+    letter-spacing: 3px;
+    margin: 0 15px;
+}
+.preSection__number:after {
+    content: '.';
+    color: #bda57c;
+}

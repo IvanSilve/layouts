@@ -1,0 +1,31 @@
+.mainScreen__learnMoreButton {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 20px 105px 20px 82px;
+    border: solid 2px white;
+    text-transform: uppercase;
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    cursor: pointer;
+}
+.mainScreen__learnMoreButton::after {
+    content: '';
+    width: 35px;
+    height: 10px;
+    background-image: url("arrow.svg");
+    position: absolute;
+    right: 60px;
+    top: 23px;
+    z-index: -1;
+}
+.mainScreen__learnMoreButton::before {
+    content: '';
+    width: 33px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    right: 61px;
+    top: 28px;
+    z-index: -1;
+}

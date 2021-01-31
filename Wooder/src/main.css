@@ -1,0 +1,26 @@
+@import "./Components/Header/Header.css";
+@import "./Components/MainScreen/MainScreen.css";
+@import "./Components/MainScreen/LearnMoreButton.css";
+@import "Components/MainContent/MainContent.css";
+@import "Components/Section/Presection/PreSection.css";
+@import "./Components/Section/SectionContent.css";
+@import "./Components/MainContent/BreakLine.css";
+@import "./Components/Videos/Videos.css";
+@import "./Components/Videos/VideoGraphicLink.css";
+@import "./Components/MainVideo/MainVideo.css";
+@import "./Components/AboutUs/AboutUs.css";
+@import "./Components/Footer/Footer.css";
+@import "./Components/Logo/Logo.css";
+@import "./Components/LearnMoreBtn/LearnMoreBtn.css";
+@import "./Components/Content/Content.css";
+
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Proxima Nova", sans-serif;
+}
