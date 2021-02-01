@@ -175,52 +175,12 @@
 @media(max-width: 590px) {
     .mainVideo__backgroundWrapper {
         border: none;
-        width: calc(100% - 20px);
-        left: 0;
+        width: 100%;
     }
-    .mainVideo__title {
-        font-size: 3.8rem;
-    }
-    .mainVideo__description {
-        font-size: 1.4rem;
+    .mainVideo__contentWrapper {
+
     }
 }
 @media(max-width: 479px) {
-    .mainVideo {
-        height: 736px;
-    }
-    .mainVideo__title:before {
-        width: 45px;
-        left: -70px;
-    }
-    .mainVideo__description:before {
-        width: 15px;
-        left: -45px;
-    }
-    .mainVideo__contentWrapper {
-        margin-top: 30px;
-        margin-left: 110px;
-    }
-    .mainVideo__watchVideoBtn:before {
-        left: 60px;
-    }
-}
-@media (max-width: 399px) {
-    .mainVideo__watchVideoBtn:before {
-        left: 45px;
-    }
-    .mainVideo__title {
-        font-size: 3.4rem;
-    }
-    .mainVideo__title:before {
-        width: 25px;
-        left: -50px;
-    }
-    .mainVideo__description:before {
-        width: 7px;
-        left: -37px;
-    }
-    .mainVideo__contentWrapper {
-        margin-left: 60px;
-    }
+
 }

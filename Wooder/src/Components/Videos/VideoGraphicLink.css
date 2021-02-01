@@ -19,12 +19,6 @@
     background-size: cover;
     position: relative;
 }
-@media (max-width: 349px) {
-    .videoGraphicLink__firstImage, .videoGraphicLink__secondImage, .videoGraphicLink__thirdImage {
-        width: 180px;
-        height: 180px;
-    }
-}
 .videoGraphicLink__circle {
 }
 .videoGraphicLink__firstImage {
@@ -48,12 +42,6 @@
     background-image: url("playIcon.png");
     background-position: center;
     background-repeat: no-repeat;
-}
-@media (max-width: 349px) {
-    .videoGraphicLink__circle a {
-        width: 180px;
-        height: 180px;
-    }
 }
 .videoGraphicLink__description {
     width: 100%;
