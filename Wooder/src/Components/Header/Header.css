@@ -70,3 +70,17 @@
     font-size: 1.5rem;
     margin-left: 48px;
 }
+@media (max-width: 699px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 449px) {
+    .header__nav {
+        display: none;
+    }
+    .header {
+        margin: 30px 10px 30px 10px;
+    }
+}

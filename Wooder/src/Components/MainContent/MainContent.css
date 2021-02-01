@@ -23,6 +23,9 @@
         padding: 0;
     }
 }
-@media(max-width: 767px) {
+@media(max-width: 499px) {
+    .mainContent-revers {
+        margin: 40px auto 0 auto;
+    }
 
 }
