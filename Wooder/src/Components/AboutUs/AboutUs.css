@@ -100,6 +100,8 @@
     .aboutUs {
         flex-wrap: wrap-reverse;
         justify-content: center;
-        margin: 25px auto 55px auto;
+    }
+    .aboutUs {
+        margin: 0 auto 55px auto;
     }
 }
