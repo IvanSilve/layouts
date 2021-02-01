@@ -1,0 +1,105 @@
+.aboutUs {
+    max-width: 1180px;
+    position: relative;
+    display: flex;
+    margin: 65px auto 55px auto;
+}
+.aboutUs__ContentWrapper {
+    width: 750px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 85px 0 55px 90px;
+    align-items: flex-start;
+}
+.aboutUs__image {
+    box-shadow: 0 0 16px rgba(0,0,0,0.15);
+    z-index: -1;
+    max-width: calc(100% - 40px);
+    max-height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.aboutUs__Title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    width: 330px;
+}
+.aboutUs__Title:before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 23px;
+    left: -175px;
+}
+
+.aboutUs__description {
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 200%;
+    margin: 0;
+}
+.aboutUs__description:before {
+    content: '';
+    width: 45px;
+    height: 4px;
+    background-color: #bea67c;
+    position: absolute;
+    top: 12px;
+    left: -70px;
+
+}
+.aboutUs__learnMoreBtn button{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    position: relative;
+    padding: 0 65px 5px 0;
+    cursor: pointer;
+}
+.aboutUs__learnMoreBtn button:before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #bea67c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.aboutUs__learnMoreBtn {
+    position: relative;
+}
+
+.aboutUs__learnMoreBtn:after {
+    content: '>';
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    color: #bea67c;
+}
+.aboutUs__learnMoreBtn:before {
+    content: '';
+    width: 45px;
+    height: 1px;
+    background-color: #bea67c;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+@media(max-width: 967px) {
+    .aboutUs {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin: 25px auto 55px auto;
+    }
+}

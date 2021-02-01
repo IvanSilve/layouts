@@ -1,0 +1,69 @@
+.mainScreen {
+
+}
+.mainScreen__nav {
+
+}
+.mainScreen__center {
+    max-width: 500px;
+    height: 690px;
+    margin: 280px auto 0 auto;
+    padding: 0 15px 0 15px;
+}
+.mainScreen__title {
+    font-size: 10rem;
+    color: #bea67c;
+
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+@media(max-width: 899px) {
+    .mainScreen__title {
+        font-size: 8rem;
+    }
+}
+@media(max-width: 599px) {
+    .mainScreen__title {
+        font-size: 10vw;
+    }
+    .mainScreen__center {
+        max-width: 400px;
+    }
+}
+@media(max-width: 519px) {
+    .mainScreen__center {
+        max-width: 300px;
+    }
+}
+.mainScreen__backgroundLeft, .mainScreen__backgroundRight {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainScreen__backgroundLeft {
+    left: 0;
+    height: 1000px;
+    width: 54.6875%;
+    background-image: url("DSC_1007_2000.jpg");
+}
+.mainScreen__backgroundRight {
+    right: 0;
+    height: 1045px;
+    width: 45.3125%;
+    background-image: url("boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile.jpg");
+}
+@media (max-width: 430px) {
+    .mainScreen__backgroundLeft {
+        height: 812px;
+    }
+    .mainScreen__backgroundRight {
+        height: 846px;
+    }
+    .mainScreen__center {
+        height: 480px;
+    }
+}

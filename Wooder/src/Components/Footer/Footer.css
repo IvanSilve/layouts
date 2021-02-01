@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    background-color: #0c0c0d;
+}
+.footer__contentWrapper {
+    max-width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0  auto 0 auto;
+    align-items: center;
+}
+.footer__year {
+    font-size: 1.5rem;
+    color: #464646;
+}
+.footer__author {
+    font-size: 1.5rem;
+    color: #464646;
+}
+.footer__author span {
+    color: #7d7d7d;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
