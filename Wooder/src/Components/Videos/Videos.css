@@ -26,3 +26,11 @@
     top: -25px;
     left: calc(50% - 22px);
 }
+@media (max-width: 499px) {
+    .videos__title {
+        font-size: 3.8rem;
+    }
+    .videos__description {
+        margin-bottom: 0;
+    }
+}
